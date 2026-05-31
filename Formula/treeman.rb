@@ -1,28 +1,28 @@
 class Treeman < Formula
   desc "Per-worktree development environment helper (DBs, hooks, test clones)"
   homepage "https://github.com/stubbedev/treeman"
-  version "2.5.6"
+  version "2.5.7"
   license "Apache-2.0 OR MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/stubbedev/treeman/releases/download/v#{version}/treeman-#{version}-darwin-arm64.tar.gz"
-      sha256 "a9670e27b0aebcc3e59e7786b2f2cbe9c31f58833eed9dea20c53d2d4213b83c"
+      sha256 "57e2669283fe14e10d57d2462035e3a84d82a0eb86f67f27de0cf4f1ccbfa5f9"
     end
     on_intel do
       url "https://github.com/stubbedev/treeman/releases/download/v#{version}/treeman-#{version}-darwin-amd64.tar.gz"
-      sha256 "5d2a4e0dfdeefe24df71a8cdb1ef101af8de7b5ac2c8264c88c59f09d21d41ab"
+      sha256 "06df4cb6089f8af4b8d9bb7a53f1c623ac5af0ae59f9b9e591524197f814eb50"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/stubbedev/treeman/releases/download/v#{version}/treeman-#{version}-linux-arm64.tar.gz"
-      sha256 "5d86eabc968fe76562a6217c984006ef187598363f39eed5756a05cc24e198ae"
+      sha256 "196cd2e86ea728e26233011111b68b1dc1802160d122d5c129d659854e43cfe9"
     end
     on_intel do
       url "https://github.com/stubbedev/treeman/releases/download/v#{version}/treeman-#{version}-linux-amd64.tar.gz"
-      sha256 "9534796475a92667a34ed69a47e68177f42afef8dc6dd69ce32807ff44a3d7fc"
+      sha256 "1f3c43f71c60dc1d729b15febebd5de29503efe63fdbf7ba4c3c4699680dca09"
     end
   end
 
