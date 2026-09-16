@@ -27,3 +27,5 @@ release.
 ## License
 
 Apache-2.0 OR MIT, matching upstream.
+
+> **Deprecated** — this tap has moved to [stubbedev/homebrew-tap](https://github.com/stubbedev/homebrew-tap). Use `brew install stubbedev/tap/<formula>`.
